@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            color:#333333;
+        }
+        
+       .container{
+           height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav{
+           display: flex;
+          flex-direction: column;
+          justify-content: center;
+           align-items: center;
+           margin: 20px;
+          
+          
+        }
+        ul{
+        min-width:400px ;
+        
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      
+      }
+      .border{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 150px;
+        border: 2px solid dodgerblue;
+        margin-bottom: 50px;
+        margin-top: 30px;
+      }
+      .header{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+        
+        
+
+      }
+      .header h3{
+        color: black;
+      }
+      .content{
+        display:flex;
+        height:90vh;
+        width: 100%;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1,p{
+        text-align: center;
+        line-height: 1.8;
+      }
+      input{
+        width: 250px;
+        height: 35px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        outline: none;
+        border:1px solid gray;
+      }
+      button{
+        width:250px;
+        height: 35px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #3388ff;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1rem;
+        cursor: pointer;
+     
+        
+      }
+      button:hover{
+        background-color: lightblue;
+      }
+      .footer{
+        display: flex;
+       flex-direction: column;
+        
+        width:100%;
+        height: 500px;
+       
+        
+      }
+      .btn{
+        display: flex;
+        justify-content: center;
+      }
+      .footer-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        background-color: #333;
+        margin-top: 20px;
+        height: 50%;
+        width: 100%;
+
+
+      }
+      .footer-text p{
+        color: gray;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      strong{
+        color: lightgray;
+      }
+      .color{
+        width: 100%;
+        height:50%;
+        background-color: black;
+      }
+      @media(min-width:800px){
+        .nav{
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .em{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+        }
+        input{
+            width:450px
+        }
+        .float-text
+        {
+            height: 70%;
+        }
+        .color{
+            height: 30%;
+        }
+        .head{
+          width:60%;
+          text-align:center;
+        }
+        
+      }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="header">  <h3>Website Logo</h3></div>
+              <div class="list">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="products.html">Products</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="#">Contacts</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="content">
+              <div class="head">
+                <h1>Join Our Newsletters</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, mollitia itaque necessitatibus error assumenda beatae, dolore eos hic inventore exercitationem, ratione ipsa aspernatur laboriosam! Quas!</p>
+              </div>
+              <div class="border">
+    
+              </div>
+              <div class="em">
+                  <div class="email">
+                    <input type="email" placeholder="Email">
+                   
+                  </div>
+                  <div class="btn">
+                    <button>Subscribe Now</button>
+                  </div>
+              </div>
+          </div class="contnent">
+          <div class="footer">
+              <div class="footer-text">
+                <p>made by <strong>tutorializine</strong>. images countesy to <strong>unsplash</strong>.
+                     no attribution reauires. you can renove this footer
+              </div>
+              <div class="color">
+                </div>
+          </div>
+
+    </div>
+</body>
+</html>

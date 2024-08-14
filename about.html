@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            color:#333333;
+        }
+        
+       .container{
+           
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav{
+           display: flex;
+          flex-direction: column;
+          justify-content: center;
+           align-items: center;
+           margin: 20px;
+           
+          
+        }
+        ul{
+        min-width:400px ;
+        
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      
+      }
+      .head{
+        margin-bottom: 10px;
+      }
+      .about{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+       
+      }
+      h3{
+        color: black;
+      }
+      p{
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+      h1{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h2{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+     
+      .border{
+        display: flex;
+        width: 150px;
+        border: 2px solid dodgerblue;
+        margin-bottom: 20px;
+      }
+      @media(min-width:800px){
+
+        .content{
+            width: 100%;
+            margin-top: 40px;
+           display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .photo{
+            width:300px;
+            height: 300px;
+        }
+        .web{
+            width:300px;
+            height: 300px;
+        }
+        .edit{
+            width:300px;
+            height: 300px;
+        }
+        .about{
+            margin-left: 80px;
+            margin-right: 80px;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav{
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="head">  <h3>Website Logo</h3></div>
+              <div class="list">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="products.html">Products</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                  </ul>
+              </div>
+        </div>
+              <div class="about">
+                  <div class="header">
+                    <h1>Features And Services</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, repellat exercitationem aliquam perferendis voluptatibus eum ea rem repudiandae sit, fugit quia accusantium ducimus. Sint blanditiis rem corrupti adipisci similique suscipit!</p>
+         
+    
+                  </div>
+                  <div class="border"></div>
+                  <div class="content">
+                    <div class="photo">
+                        <h2>Photography</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur enim repellat quos ullam atque repellendus obcaecati necessitatibus ut explicabo! Nulla ipsa laboriosam sapiente ad.</p>
+                    </div>
+                    <div class="web">
+                        <h2>Web Devlopment</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quae sed rem. Possimus fugit fugiat corrupti amet, quae, libero nisi ad vel sunt dolores impedit ipsam praesentium doloremque optio! Ducimus!</p>
+    
+                    </div>
+                    <div class="edit">
+                        <h2>Content Editing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo hic, nisi rem exercitationem sed laudantium aut enim, nobis, quia doloremque dolore quibusdam pariatur. Aspernatur et esse eaque ut excepturi.</p>
+    
+                    </div>
+              </div>
+
+              </div>
+
+    </div>
+</body>
+</html>

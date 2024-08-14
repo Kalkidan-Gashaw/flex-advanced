@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        
+    }
+    .nav{
+         
+         height:5%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+          align-items: center;
+          margin: 30px;
+         
+       }
+       .list{
+        margin-top: 20px;
+       }
+       .content{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       color: #333;
+       }
+       .head p{
+        min-width:400px;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 20px;
+       }
+   
+       ul{
+        min-width:400px ;
+        margin-bottom: 30px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+      .image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        }
+      .imgA{
+       
+        width: 100%;
+        
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        
+        
+      }
+      .imgB{
+        
+       
+        width: 100%;
+        display: flex;
+       
+        height: 80%;
+       
+        justify-content: center;
+        
+      }
+      #im1{
+       
+        width: 30%;
+        height: 100%;
+        margin-left: 20px;
+       
+      }
+      #im2{
+        width: 60%;
+        height: 100%;
+        margin-left: 30px;
+      
+      }
+      #im3{
+        width: 60%;
+        height: 100%;
+      
+        margin-top: 30px;
+      
+      }
+      #im4{
+        height: 100%;
+        width: 30%;
+        margin-left: 30px;
+        margin-top: 30px;
+       
+      }
+      @media(min-width:800px){
+        .nav{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .image{
+            margin-top: 100px;
+          width:70%;
+          height: 50%;
+          
+        }
+        
+      }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="head">  <h3>Website Logo</h3></div>
+            <div class="list">
+                <ul>
+                    <div><li><a href="index.html">Home</a></li></div>
+                   <div> <li><a href="#">Products</a></li></div>
+                    <div><li><a href="about.html">About</a></li></div>
+                    <div><li><a href="contacts.html">Contacts</a></li></div>
+                </ul>
+            </div>  
+        </div>
+        <div class="head">
+            <div class="content">
+                <h1>Some Of Our work</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus neque facere reiciendis cum aut dolor mollitia corporis, quod, nobis eum accusamus molestiae beatae sit porro iste necessitatibus dolorem, laboriosam veritatis!</p>
+            </div>
+        </div>
+        <div class="image">
+            <div class="imgA">
+                
+                    <img id="im1" src="coast.jpg" alt="coast">
+                
+               
+                    <img id="im2"src="island.jpg" alt="">
+                
+            </div>
+            <div class="imgB">
+                
+                    <img id="im3"src="balloon.jpg" alt="">
+                
+                
+                    <img id= "im4"src="mountain.jpg" alt="">
+                
+    
+            </div>
+        </div>
+       
+      
+        
+    </div>
+</body>
+</html>
